@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Protest Revolution", sans-serif;
+}
+
+/* nav styles */
+.topnav-container {
+  position: fixed;
+  padding: 20px 60px;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+}
+.topnav-container .logo img {
+  background-color: transparent;
+  width: 60px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 50%;
+}
+
+.topnav-container .nav-links ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.topnav-container .nav-links ul li a {
+  text-decoration: none;
+  margin-right: 10px;
+  color: #918e8e;
+  font-size: 20px;
+}
+.topnav-container .nav-links ul li a:hover {
+  color: #fff;
+}
+
+/* home styles */
+.home-container {
+  padding-left: 5%; /* Use percentage for padding */
+  padding-right: 5%;
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  background-image: url("../images/dark_batman.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; /* Center the background image */
+}
+
+.home-container .name {
+  padding-top: 200px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  height: 100vh;
+}
+.resume {
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background: url("../images/batman-logo.png") no-repeat center center;
+  background-size: cover;
+  cursor: pointer;
+}
+.social-links ul {
+  display: flex;
+  list-style-type: none;
+}
+.social-links ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  transition: 0.3s ease;
+  margin: 5px 10px;
+}
+.social-links ul li:nth-child(1) a:hover {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: white;
+  color: blue;
+}
+
+.social-links ul li:nth-child(2) a:hover {
+  border-radius: 3px;
+  background-color: white;
+  color: black;
+}
+.social-links ul li:nth-child(3) a:hover {
+  height: 20px;
+  width: 20px;
+  border-radius: 3px;
+  background-color: white;
+  color: blue;
+}
+.social-links ul li:nth-child(4) a:hover {
+  height: 20px;
+  width: 20px;
+  border-radius: 8px;
+  background-color: #af3ccc;
+  color: white;
+}
+
+/* about styles */
+.about{
+    font-size: 25px;
+    padding-top: 100px;
+    
+}
+.text{
+    min-width: 100%;
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.skills ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.skills ul li{
+    margin-right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.skills ul li:nth-child(1){
+    color: aqua;
+}
+.skills ul li:nth-child(2){
+    color: purple;
+}
+.skills ul li:nth-child(3){
+    color: yellow;
+}
+.skills ul li:nth-child(4){
+    color: green;
+}
+.skills ul li:nth-child(5){
+    color: #f16a30;
+}
+.skills ul li:nth-child(6){
+    color: blue;
+}
+.skills ul li:nth-child(7){
+    color: purple;
+}
+/* education */
+.education{
+    font-size: 20px;
+    margin-top: 20px;
+}
+/* project styles */
+.projects{
+    padding-top: 70px;
+    
+}
+.projects h1{
+    text-align: center;
+}
+
+.project-container {
+    width: 100%;
+    padding: 20px; /* Adjust as needed */
+    color: black;
+  }
+  
+  .project-body {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px; /* Adjust as needed */
+    
+  }
+  
+  .project-item {
+    background-color: #f1f1f1; /* Set a background color or styles for each item */
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .project-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .project-details {
+    margin-top: 10px; /* Adjust as needed */
+  }
+  
