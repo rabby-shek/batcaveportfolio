@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.4dcee050.css",
-    "main.js": "/static/js/main.691b9619.js",
-    "static/media/background.jpg": "/static/media/background.c7448ff9390f1944b4ad.jpg",
-    "static/media/dark_batman.jpg": "/static/media/dark_batman.f6c419dfd20d1e2be903.jpg",
-    "static/media/docrx.PNG": "/static/media/docrx.58f18f1150192520e901.PNG",
-    "static/media/r-pos.PNG": "/static/media/r-pos.d52237f6bf615f44a289.PNG",
-    "static/media/hang-man-game.PNG": "/static/media/hang-man-game.729ef74d3292e57de3c4.PNG",
-    "index.html": "/index.html",
-    "main.4dcee050.css.map": "/static/css/main.4dcee050.css.map",
-    "main.691b9619.js.map": "/static/js/main.691b9619.js.map"
+    "main.css": "/batcaveportfolio/static/css/main.cedc98b2.css",
+    "main.js": "/batcaveportfolio/static/js/main.84162e93.js",
+    "static/media/background.jpg": "/batcaveportfolio/static/media/background.c7448ff9390f1944b4ad.jpg",
+    "static/media/dark_batman.jpg": "/batcaveportfolio/static/media/dark_batman.f6c419dfd20d1e2be903.jpg",
+    "static/media/docrx.PNG": "/batcaveportfolio/static/media/docrx.58f18f1150192520e901.PNG",
+    "static/media/r-pos.PNG": "/batcaveportfolio/static/media/r-pos.d52237f6bf615f44a289.PNG",
+    "static/media/hang-man-game.PNG": "/batcaveportfolio/static/media/hang-man-game.729ef74d3292e57de3c4.PNG",
+    "index.html": "/batcaveportfolio/index.html",
+    "main.cedc98b2.css.map": "/batcaveportfolio/static/css/main.cedc98b2.css.map",
+    "main.84162e93.js.map": "/batcaveportfolio/static/js/main.84162e93.js.map"
   },
   "entrypoints": [
-    "static/css/main.4dcee050.css",
-    "static/js/main.691b9619.js"
+    "static/css/main.cedc98b2.css",
+    "static/js/main.84162e93.js"
   ]
 }
