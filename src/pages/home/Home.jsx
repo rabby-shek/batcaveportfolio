@@ -5,6 +5,7 @@ import { Typewriter } from "react-simple-typewriter";
 import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 const Home = () => {
+  
   return (
     <section className="home-container">
       <div className="name">
