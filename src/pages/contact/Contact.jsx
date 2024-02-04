@@ -11,9 +11,9 @@ const Contact = () => {
         <div className="location">Matuail, Jatrabari, Dhaka, Bangladesh</div>
         <div>
         <div className="form-container">
-        <form action="mailto:rabbyshek1998@gmail.com" method="post" enctype="text/plain">
+        {/* <form action="mailto:rabbyshek1998@gmail.com" method="post" enctype="text/plain">
         <input type="submit" value="Send Email" />
-        </form>
+        </form> */}
         </div>
         </div>
       </div>
