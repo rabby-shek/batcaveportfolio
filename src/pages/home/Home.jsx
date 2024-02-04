@@ -47,7 +47,7 @@ const Home = () => {
             </li>
           </ul>
         </div>
-        <button className="resume">Resume</button>
+        {/* <button className="resume">Resume</button> */}
       </div>
     </section>
   );

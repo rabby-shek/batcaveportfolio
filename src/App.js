@@ -5,6 +5,7 @@ import Footer from "./components/footer/Footer";
 import About from "./pages/aboutme/About";
 import Projects from "./pages/projects/Projects";
 import Contact from "./pages/contact/Contact";
+import Resume from "./pages/Resume";
 function App() {
   return (
     <Router>
