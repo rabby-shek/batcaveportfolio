@@ -8,12 +8,12 @@ const TopNav = () => {
   return (
     <section className='topnav-container'>
         <div className="logo">
-            <NavLink to='/'><img src={LOGO} alt="logo" /></NavLink>
+            <NavLink to='/batcaveportfolio'><img src={LOGO} alt="logo" /></NavLink>
         </div>
         <div className='nav-links'>
             <ul>
                 <li>
-                    <NavLink to="/" ><FaHome /></NavLink>
+                    <NavLink to="/batcaveportfolio" ><FaHome /></NavLink>
                 </li>
                 <li>
                     <NavLink to="/about"><IoPersonCircleSharp /></NavLink>
