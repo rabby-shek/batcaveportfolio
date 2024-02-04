@@ -194,10 +194,39 @@
   
   .project-image img {
     width: 100%;
-    height: auto;
+    height: 180px;
   }
   
   .project-details {
     margin-top: 10px; /* Adjust as needed */
   }
   
+  /* contact styles */
+
+  .contact-container{
+    padding-top: 70px;
+    text-align: center;
+    line-height: 3rem;
+   
+  }
+  .contact-container form{
+    width: 500px;
+    height: 400px;
+  }
+
+  .contact-container input{
+    background: transparent;
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+  }
+  .contact-container input:focus{
+    outline: black;
+  }
+  .form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
