@@ -4,7 +4,9 @@ import { FaPhp, FaNode, FaCss3, FaHtml5 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { MdHtml } from "react-icons/md";
 import { RiBootstrapLine } from "react-icons/ri";
+import useTitle from "../../hooks/useTitle";
 const About = () => {
+  useTitle("About Me");
   return (
     <section className="home-container">
       <div className="about">

@@ -4,8 +4,9 @@ import Background from "../../assets/images/background.jpg";
 import { Typewriter } from "react-simple-typewriter";
 import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import useTitle from "../../hooks/useTitle";
 const Home = () => {
-  
+  useTitle("Home");
   return (
     <section className="home-container">
       <div className="name">

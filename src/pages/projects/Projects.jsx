@@ -3,7 +3,9 @@ import HangMAN from "../../assets/images/hang-man-game.PNG";
 import RPOS from "../../assets/images/r-pos.PNG";
 import DOCRX from "../../assets/images/docrx.PNG";
 import { NavLink } from "react-router-dom";
+import useTitle from "../../hooks/useTitle";
 const Projects = () => {
+  useTitle("Projects");
   return (
     <section className="home-container">
       <div className="projects">
